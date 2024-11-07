@@ -188,7 +188,7 @@ class Widget1(QWidget):
         return self.w1
 
     def start_attack(self):
-        username = self.instausername.text()
+        username = self.instausername.text(scorelordd)
         min_pass_length = self.minpass.value()
         max_pass_length = self.maxpass.value()
         timeout = self.timeout1.value()
